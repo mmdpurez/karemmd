@@ -31,4 +31,4 @@ jobs:
           KATABUMP_EMAIL: ${{ secrets.KATABUMP_EMAIL }}
           KATABUMP_PASSWORD: ${{ secrets.KATABUMP_PASSWORD }}
           SERVER_ID: ${{ secrets.SERVER_ID }}
-        run: python renew.p
+        run: python renew.py
